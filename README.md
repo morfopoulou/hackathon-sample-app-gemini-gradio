@@ -1,4 +1,12 @@
-## Sample Compare PDFs with Gemini Application
+## Starter Kit Gemini App
+
+Starter kit to build an app using Gemini and Gradio Framework.
+
+## Sample app
+
+ https://hackathon-sample-app-615535018443.europe-west3.run.app/
+
+ Follow the steps to build it.
 
 ## Clone
 
