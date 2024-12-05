@@ -1,6 +1,10 @@
+## Sample html page to build your AI Playground UI
+
+https://htmlpreview.github.io/?https://github.com/morfopoulou/hackathon-sample-app-gemini-gradio/blob/main/AI%20Playground%20Sample%20Web%20Page.html 
+
 ## Starter Kit Gemini App
 
-Starter kit to build an app using Gemini and Gradio Framework.
+Starter kit to build your first app using Gemini and Gradio Framework.
 
 ## Sample app
 
