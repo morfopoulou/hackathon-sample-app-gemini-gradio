@@ -28,11 +28,8 @@ Ensure the default Cloud Run service account (if not specified that will be PROJ
 
 Set the environment variables in `initial.sh'
 Add your app name in the Dockerfile
-```In Cloud Shell, execute the following commands:
-gcloud artifacts repositories create "$AR_REPO" --location="$GCP_REGION" --repository-format=Docker
-gcloud auth configure-docker "$GCP_REGION-docker.pkg.dev"
-gcloud builds submit --tag "$GCP_REGION-docker.pkg.dev/$GCP_PROJECT/$AR_REPO/$SERVICE_NAME"
-```
+
+
 Before you can push or pull images, configure Docker to use the Google Cloud CLI to authenticate requests to Artifact Registry.
 In Cloud Shell, execute the following command to create a Artifact Registry repository:
 
@@ -40,7 +37,7 @@ In Cloud Shell, execute the following command to create a Artifact Registry repo
 gcloud artifacts repositories create "$AR_REPO" --location="$GCP_REGION" --repository-format=Docker
 ```
 
-To set up authentication to Docker repositories in the region us-west1, run the following command:
+To set up authentication to Docker repositories,  execute the following commands in Cloud Shell:
 
 ```
 gcloud auth configure-docker "$GCP_REGION-docker.pkg.dev"
